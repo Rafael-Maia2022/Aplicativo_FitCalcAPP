@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/layout_tela_IMC"
+    >
+
+    <TextView
+        android:id="@+id/textView_calculadora_imc_Apresentacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo a calculadora de IMC\n feito pra calcular seu IMC "
+        android:gravity="center"
+        android:textSize="17dp"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton_calculadora_imc_Sexo_Masculino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Homem" />
+
+        <RadioButton
+            android:id="@+id/radioButton_calculadora_imc_Sexo_Feminino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextText_calculadora_imc_Altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Altura (Metros)" />
+
+    <EditText
+        android:id="@+id/editTextText_calculadora_imc_Peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Peso (KG)"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:id="@+id/textView_calculadora_imc_Resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/button_Calculadora_IMC_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="calcular"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/button_Calculadora_IMC_voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="voltar" />
+</LinearLayout>

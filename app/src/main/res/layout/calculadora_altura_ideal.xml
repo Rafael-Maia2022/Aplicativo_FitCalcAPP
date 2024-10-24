@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/layout_tela_Altura_Ideal"
+    >
+
+    <TextView
+        android:id="@+id/textView_calculadora_Altura_ideal_Apresentacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo a Calculadora da Altura ideal pra seu peso"
+        android:gravity="center"
+        android:textSize="17dp"
+        />
+
+    <TextView
+        android:id="@+id/textView_calculadora_Altura_ideal_Apresentacao_parte2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Recomendado para aqueles que não querem perder peso)"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="310dp"
+        android:layout_height="298dp"
+        app:srcCompat="@drawable/imagem_altura" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+
+        <RadioButton
+            android:id="@+id/radioButton_calculadora_altura_ideal_Sexo_Masculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/radioButton_calculadora_altura_ideal_Sexo_Feminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextText_calculadora_altura_ideal_Peso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Peso (KG)"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/button_Calculadora_Altura_Ideal_Calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/textView_calculadora_Altura_ideal_Resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Resultado"
+        android:textSize="17dp"
+        />
+
+    <Button
+        android:id="@+id/button_Calculadora_Altura_Ideal_Voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="voltar" />
+
+</LinearLayout>

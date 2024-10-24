@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/layout_tela_Peso_Ideal"
+    >
+
+    <TextView
+        android:id="@+id/textView_calculadora_peso_ideal_Apresentação"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo a calculadora de quando você REALMENTE deveria estar pesando "
+        android:gravity="center"
+        android:textSize="17dp"
+
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButton_calculadora_peso_ideal_Sexo_Masculino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masculino" />
+
+        <RadioButton
+            android:id="@+id/radioButton_calculadora_peso_ideal_Sexo_feminino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Feminino" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editTextText_calculadora_peso_ideal_Altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Altura (Metros)"
+        />
+
+    <Button
+        android:id="@+id/button_Calculadora_Peso_Ideal_Calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_margin="8dp"
+        />
+
+    <TextView
+        android:id="@+id/textView_calculadora_peso_ideal_Resultado"
+        android:layout_width="330dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="10dp"
+        android:text="Resultado"
+        android:textSize="17dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_Calculadora_Peso_Ideal_Voltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Voltar" />
+</LinearLayout>

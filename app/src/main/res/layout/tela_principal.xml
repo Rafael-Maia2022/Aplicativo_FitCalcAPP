@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/textView_Tela_Principal_Apresentacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bem vindo ao APP para ver se você é GORD.... \n esta no peso ideal"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textSize="19dp"
+        />
+
+    <Button
+        android:id="@+id/button_Calculadora_IMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de IMC" />
+
+    <Button
+        android:id="@+id/button_Calculadora_Peso_Ideal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de Peso Ideal"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/button_Calculadora_Altura_Ideal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora de Altura Ideal" />
+
+</LinearLayout>
